@@ -1,0 +1,29 @@
+{
+  "name": "@cascade-energy-labs/hello-world",
+  "version": "1.0.0",
+  "description": "Hi there",
+  "files": [
+    "lib"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive",
+    "run": "node .",
+    "run_es": "node . es"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cascade-energy-labs/hello-world.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cascade-energy-labs/hello-world/issues"
+  },
+  "homepage": "https://github.com/cascade-energy-labs/hello-world#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/mocha": "^5.2.7",
+    "mocha": "^6.2.0"
+  }
+}
